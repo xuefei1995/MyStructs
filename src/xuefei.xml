@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<struct>
+	<action-mapping>
+		<action name="login" path="com.xuefei.web.LoginAction" method="login">
+			<result name="success" type="redirect">/success.jsp</result>
+			<result name="error" type="dispacher">/error.jsp</result>
+		</action>
+		
+		<action name="register" path="com.xuefei.web.RegisterAction" method="register">
+			<!-- 成功就重定向到主页，失败则转发到失败页面 -->
+			<result name="success" type="redirect">/success.jsp</result>
+			<result name="error" type="dispacher">/error.jsp</result>
+		</action>
+	</action-mapping>
+</struct>
