@@ -1,4 +1,4 @@
-# MyStructs
-Customize the struct2 framework!
+# MyStruts
+Customize the struts2 framework!
 
-自定义简单的structs2框架
+自定义简单的struts2框架
